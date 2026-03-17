@@ -1,0 +1,40 @@
+ body {
+ background: #ff0400;
+background: linear-gradient(90deg, rgba(255, 4, 0, 1) 0%, rgba(255, 128, 0, 1) 50%, rgba(255, 238, 0, 1) 100%);
+text-align: center;
+background-repeat: repeat;
+display: flex;
+margin: 100px;
+padding: 100px;
+}
+
+h1 {
+color: white;
+}
+
+.container {
+ background-color: rgb(236, 221, 208);
+ border-radius: 20px;
+ padding: 100px;
+}
+
+input {
+    border-radius: 20px;
+    border-style:groove;
+    width: 100%;
+    padding: 20px;
+    margin-top: 5px; 
+    text-align: center;
+}
+
+.btn {
+    background-color: white;
+    border-radius: 20px;
+    border: none;
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+}
+/* Source: 
+Background gradient: https://cssgradient.io/
+Button style: https://www.w3schools.com/bootstrap/bootstrap_buttons.asp
